@@ -1,0 +1,239 @@
+body /* Fondo de la página */
+{ 
+    box-sizing: border-box; 
+    margin: 0px;
+    padding: 0px;
+    background-image: url('fondo.jpg');
+    /* background-color: rgb(223, 236, 236); */
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+/* =================================================================================== */
+
+.nav
+{   /* Aca trabajamos el estilo de la caja NAV */
+    background-color: black;
+    display: flex; /* Le pedimos que se ponga todo al costado */
+    justify-content: space-between; /* Espacio en cada margen */
+    font-family: monospace; /* Le doy fuente a todo el NAV */
+    padding: 0 1rem;
+    align-items: center; /* Todos los ITEMS se pongan en el centro de donde estan */
+}
+
+.nav .nav-logo
+{   /* En la caja LOGO */
+    display: flex; /* Le pido que se coloque todo al costado */
+    align-items: center; /* Sus ITEMS queden en el centro de donde estan */
+}
+
+.nav img 
+{   /* Dentro del DIV LOGO modificamos la IMG dentro de NAV-LOGO */
+    height: 80px;
+    width: 170px;
+    margin-right: 10px; /* Lo separamos del texto */
+}
+
+.nav div a
+{   /* Aca modificamos el H1 REF dentro de NAV-LOGO */
+    text-decoration: none; /* Sin la linea LINK */
+    color: white; /* Color del texto */
+    font-size: 20px;
+}
+
+.nav ul
+{ /* Aca modificamos la lista entera */
+    list-style: none; /* Le quitamos los puntitos */
+    display: flex; /* Le digo que se pongan a lado de cada una */
+    justify-content: space-between; /* Que haya espacio entre medio */
+}
+
+.nav ul li
+{   /* Aca entramos a los ITEMS */
+    margin: 10px; /* Le doy mangen entre ellos */
+    font-size: 20px; /* Le doy tamaño */
+}
+
+.nav ul li a
+{   /* Modificamos los REF de la LISTA */
+    text-decoration: none; /* Sin la linea LINK */
+    color: white; /* Color del texto */
+}
+
+.nav .nav-logo h1:hover
+{   /* Aca jugamos con la interaccion del H1 */
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+}
+
+.nav ul li a:hover
+{   /* Aca jugamos con la barra de NAV */
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+}
+
+/* =================================================================================== */
+
+.clearfix /* Separamos contedido para abajo */
+{
+    clear:both;
+}
+
+/* =================================================================================== */
+
+.intro /* Aplica para el H2, subtitulo */
+{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: white;
+    font-family: monospace;
+}
+
+#ofertas /* Esto aplica para la seccion de OFERTAS */
+{
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.imagenes
+{
+    margin: auto;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.imagenes p
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-style: bold; 
+}
+
+.imagenes p:hover /* Le doy estilo al parrafo dentro de la clase */
+{
+    color: black;
+    background-color: white;
+}
+
+.productos /* Aca le doy estilo a la caja y no al contenido */
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.productos p /* Modificando el estilo del parrafo */
+{
+    font-size: 20px;
+    color: white;
+    font-family: monospace;   
+}
+
+.productos a
+{
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.productos a:hover
+{   /* Manipulamos el REF que lleva a "Mas Productos" */
+    color: black;
+    /* background-color: rgb(65, 143, 216); */
+    background-color: white;
+    border-radius: 4px;    
+}
+
+/* =================================================================================== */
+
+.clearfix /* Separamos contenido para abajo */
+{
+    clear:both;
+}
+
+/* =================================================================================== */
+
+footer /* Pie de pagina */
+{
+    background-color: black; /* Fondo negro */
+    width: auto; /* Toma todo el ancho */
+    height: 130px auto; /* Aca le doy una altura pero que se haga mas grande dependiendo de la pantalla */
+    color: white; /* Color del texto */
+    text-align: center;   /* Todo texto en su posicion queda centrado */
+}
+
+footer .pie /* DIV entero, contenido de todo el PIE */
+{
+    display: flex; /* Aca pongo todo al lado */
+    /* flex-wrap: wrap; Aca le digo que cuando alacance un tope que se coloque abajo */
+    justify-content: space-around; /* Le doy espacio a los DIVS dentro del contenedor PIE */
+    /* flex-direction: column; juega con las cajas pero de manera de columnas osea verticalmente */
+    align-items: center; /* Aca podemos mover todas las cajas como queramos dentro de la caja padre */
+    align-self: center;
+}
+
+footer h4  /* Este es el texto de Copyright */ 
+{
+    /* text-align: center;  no hace falta ponerlo porque ya esta declarado arriba */
+    font-size: 13px;
+}
+
+.redes p /* Texto  de redes sociales */
+{
+    /* text-align: center;  Centro todo el texto */
+    /* No corresponde ponerlo porque esta declaradon en el DIV completo */
+    font-size: 12px;
+    margin: 0px; /* Aca le pido que se pegue a la imagen */
+}
+
+.redes img /* Atributos de las imagenes linkeadas de redes  */
+{
+    width: 90px;
+    height: 50px;
+}
+  
+address /* Caja de la direccion */
+{
+    font-size: 13px; /* Tamaño de la fuente */
+    /* No le doy margenes porque la caja entera DIV ya la tiene */
+    /* Tampoco hace falta la alineacion centrado del texto */
+    /* align-self: center; Esto significa que la caja que quiero, 
+    la saco individualmente de la ubicacion original en el DIV */
+    /* order: 1; Con esto puedo mover y cambiar las cajas en su orden inicial */
+}
+
+.otros /* Parrafo de Pagos */
+{
+    font-family: monospace;
+    font-size: 12px;
+    margin: 0px; /* Aca le pido que se pegue a la imagen */
+    /* No pongo text align porque ya la  caja de teexto esta centrada para texto */
+}
+
+.tarjetas img /* Atributos y estilo de las imagenes */
+{
+    width: 45x;
+    height: 45px;
+} 
+/* En la  web podemos ver como coloca todo centrado como quise
+   usando Display Flex y sus propiedades (FOOTER) */
+
+   @media screen and (max-width: 480px)  /* Aca lo adaptamos para movil  */ 
+   {
+       footer .pie  {
+                       flex-wrap: wrap;
+                    }
+   }
+
+   @media screen and (max-width: 720px)  /* Aca lo adaptamos para tablet  */ 
+   {
+       footer .pie  {
+                        flex-wrap: wrap;
+                    } 
+   }

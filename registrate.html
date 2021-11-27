@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Permite colocar caracteres especiales a la pagina -->
+	<meta name="keywords" content="lacteos, gaseosas, alcohol, carnes, almacen, golosinas, supermercado, bebidas"> <!-- Buscador de la pag por palabras -->
+    <meta name="description" content="Supermercados DELFIN"> <!-- Descripcion de la empresa -->
+	<meta name="author" content="microEXE"> <!-- Autor o creador de la pagina -->
+    <meta name="robots" content="index, follow, snippet"> <!-- Le decimos al navegador que debe hacer -->
+    <title>DELFIN - Registrate</title> <!-- Titulo de pestaña -->
+	<link rel="icon" href="delfin.ico">  <!-- Icono de la pestaña -->
+    <link rel="stylesheet" href="registrate.css">  <!-- Aca enlazamos el HTML con el con el CSS -->
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"> <img src="logo2.jpg" alt="DELIN" title="Supermercados Delfin"> </a>
+             <h1>Supermercados DELFIN</h1>   
+        </div>
+    <div> <!-- Aqui separo los HREF de otros atributos con el DIV -->
+		<nav>                     
+			  <ul>
+				  <li> <a href="index.html">Inicio</a> </li>
+                  <li> <a href="sucursales.html">Sucursales</a> </li>
+                  <li> <a href="buscador.html">Buscar</a> </li>
+                  <li> <a href="registrate.html">Registrate</a> </li>
+                  <li> <a href="micuenta.html">Mi Cuenta</a> </li>
+			  </ul>
+		</nav>
+    </div>  
+	</header>   
+    
+    <!-- <div class="clearfix"> </div> -->
+    
+<form action="" id="registro">
+                <h3><b>Registrate</b></h3>
+                <label for="">Nombre</label>        <input type="text" name="" id="" required>
+                <br>
+                <label for="">Apellido</label>      <input type="text" name="" id="" required> 
+                <br>
+                <label for="">DNI</label>
+                <input type="number" name="" id="" required>
+                <br>
+                <label for="">Sexo</label>          <input type="radio">Masculino  <input type="radio">Femenino
+                <br>
+                <label for="">Edad</label>
+                                        <select name="" id="" required>
+                                            <option value="">--Elije Edad--</option>
+                                            <option value="">18-24</option>
+                                            <option value="">25-35</option>
+                                            <option value="">46 + </option>
+                                        </select>
+                <br>                       
+                <label for="">Cumpleaños</label>            <input type="date" required>
+                <br>
+                <label for="">Teléfono</label>             <input type="number" required>
+                <br>
+                <label for="">e-mail</label>                <input type="email">
+                <br>
+                <label for="">Contraseña</label>            <input type="password">
+                <br>
+                <label for="">Repita Contraseña</label>     <input type="password">
+                <br>
+                <textarea name="" id="" cols="30" rows="10" minlength="0" maxlength="300" placeholder="Escriba sus comentarios si lo desea."></textarea>
+                <br>
+                <input type="reset" value="Borrar Todo">
+                <input type="submit" value="Crear Usuario" onclick="alert('¡Registrado con Exito! Recibiras un correo con el usuario asignado.')">
+</form>
+
+    <!-- <div class="clearfix"> </div> -->
+
+    <footer>
+           <h4 class="copy">Copyright - Todos los derechos reservados.</h4>
+   
+<div class="pie"> <!-- DIV completo -->
+           <div class="redes">      
+               <p>Nuestras redes sociales DELFIN "Villa de Soto"</b></p>
+               <a href="https://www.facebook.com/DelfinSupermercadosVilladeSoto" target="_blank"><img src="face.png"></a> 
+               <a href="https://instagram.com" target="_blank"> <img src="instagram.png"></a>
+               <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRnXmnlVgtQCtpTkCkWkRHVNkZPmFswfpLvJCKsGlxkCKpqkrMMRdjHrdjCbfQjbwGpFzZV" target="_blank"><img src="mail.jpg"></a>
+           </div>  
+           
+               <address> <!-- Direccion del super -->
+                   Te podés acercar a nuestra sucursal<br>
+                   calle Rivadavia 531, CP 5284, "Villa de Soto"<br>
+                   Teléfono: 03549 48-0304 <br>
+               </address>
+           
+           <div class="tarjetas">
+                   <p class="otros">
+                   Recibimos todas las tarjetas <br>
+                   Consultanos por más medios de pagos <br>
+                   </p>
+               <img src="naranjaX.png" alt="NaranjaX">
+               <img src="Mastecard.png" alt="Mastecard">
+               <img src="Visa.png" alt="Visa">
+           </div>    
+    </div>
+    </footer>
+</body>
+</html>

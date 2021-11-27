@@ -1,0 +1,182 @@
+* /*  Este codigo aplica para todo */
+{ 
+    margin: 0px;
+    padding: 0px;
+}
+
+body /* Fondo de la pagina */
+{ 
+    background-color: rgb(223, 236, 236);
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+header /* Esto es para el HEADER completo */
+{ 
+    background-color: white;
+}
+
+#logo /* DIV dentro del HEADER */
+{ /* En el DIV esta la imagen y el titulo */
+    margin: auto;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+#logo img /* Aca ingreso al ID del DIV y a la imagen */
+{
+    height: 171px; /* Proporciones de la imagen */
+    width: 350px; /* Proporciones de la imagen */
+    float: left; /* Coloco lo que hay abajo a la izquierda */
+}
+
+#logo h1 /* Ingresamos al ID y de alli al titulo */
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+    font-size: 60px;
+    font-style: oblique;
+}
+
+nav /* Aca solo le doy propiedad al NAV sin las lista ni contenido */
+{
+    height: 100px;
+    background-color:#17181C;
+    text-align: center;
+}
+
+nav ul /* Aca solo le doy propiedad a la lista sin los HREF */
+{
+    list-style: none;
+    display: inline-block;
+    padding: 20px; /* Relleno en bordes */
+}
+
+nav ul li /* Le doy estilo a los elementos de la lista */
+{
+    float: left;
+    margin-top: 20px;
+}
+
+nav ul li a /* Aca le doy propiedad a los HREF */
+{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 18px;
+}
+
+nav ul li a:hover /*Aca le doy interaccion a los HREF*/ 
+{
+    background-color: white;
+    color: black; /* Aca le doy color contrario cuando se coloque en blanco */
+}
+
+.clearfix /* Separamos contenido para abajo */
+{
+    clear:both;
+}
+
+#registro
+{
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    /* border-bottom: 2px black solid;
+    border-top: 2px black solid;
+    border-left: 2px black solid;
+    border-right: 2px black solid; */
+}
+
+input
+{
+    margin: 5px;
+}
+
+textarea
+{
+    margin: 5px;
+}
+
+select
+{
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+.clearfix /* Separamos contenido para abajo */
+{
+    clear:both;
+}
+
+
+footer /* Pie de pagina */
+{
+    background-color: black; /* Fondo negro */
+    width: auto; /* Toma todo el ancho */
+    height: 130px auto; /* Aca le doy una altura pero que se haga mas grande dependiendo de la pantalla */
+    color: white; /* Color del texto */
+    text-align: center;   /* Todo texto en su posicion queda centrado */
+}
+
+footer h4  /* Este es el texto de Copyright */ 
+{
+    /* text-align: center;  no hace falta ponerlo porque ya esta declarado arriba */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    padding-top: 3px;
+}
+
+.pie /* DIV entero, contenido de todo el PIE */
+{
+    display: flex; /* Aca pongo todo al lado */
+    justify-content: space-around; /* Le doy espacio a los DIVS dentro del contenedor PIE */
+    margin-top: 2,5px; /* Separo del Copyright */
+}
+
+.redes p /* Texto  de redes sociales */
+{
+    /* text-align: center;  Centro todo el texto */
+    /* No corresponde ponerlo porque esta declaradon en el DIV completo */
+    margin-top: 2,5px; /* Aca me separo del texto Copy */
+    margin-bottom: 2,5px; /* Aca me separdo de las imagenes, las mando para abajo */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+
+.redes img /* Atributos de las imagenes linkeadas de redes  */
+{
+    width: 90px;
+    height: 50px;
+    margin-top: 5px;
+}
+  
+address /* Caja de la direccion */
+{
+    font-size: 12px; /* Tamaño de la fuente */
+    margin-top: 15px; /* Aca lo separo del texto Copy */
+    /* No le doy margenes porque la caja entera DIV ya la tiene */
+}
+
+.otros /* Parrafo de Pagos */
+{
+    font-size: 12px;
+    /* No pongo text align porque ya la  caja esta centrada */
+}
+
+.tarjetas img /* atributos y estilo de las imagenes */
+{
+    width: 45x;
+    height: 45px;
+    margin-top: 2,5px; /* Separacion del texto */
+} 
+/* En la  web podemos ver como coloca todo centrado como quise
+   usando Display Flex y sus propiedades (FOOTER) */
