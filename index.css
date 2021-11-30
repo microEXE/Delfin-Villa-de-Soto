@@ -1,11 +1,11 @@
 body /* Fondo de la página */
 { 
     box-sizing: border-box; 
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     background-image: url('fondo.jpg');
     /* background-color: rgb(223, 236, 236); */
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace, Arial, Helvetica, sans-serif;
 } 
 
 /* =================================================================================== */
@@ -100,25 +100,200 @@ body /* Fondo de la página */
     font-size: 15px;
 }
 
-.imagenes
+/* Secciones  */
+#revista
 {
-    margin: auto;
-    margin-left: 250px;
-    margin-right: 250px;
-}
-
-.imagenes p
-{
-    margin-top: 20px;
-    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-family: monospace;
     font-size: 20px;
     font-style: bold; 
 }
 
-.imagenes p:hover /* Le doy estilo al parrafo dentro de la clase */
+#revista img
 {
-    color: black;
-    background-color: white;
+    margin: 10px;
+}
+
+#revista p
+{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#revista p:hover
+{
+    background-color: black;
+    color: white;
+    border-style: dashed;    
+}
+
+/* Secciones  */
+#almacen
+{
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    font-style: bold; 
+}
+
+#almacen img
+{
+    margin: 10px;
+}
+
+#almacen p
+{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#almacen p:hover
+{
+    background-color: black;
+    color: white;
+    border-style: dashed;    
+}
+
+/* Secciones  */
+#lacteos
+{
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    font-style: bold; 
+}
+
+#lacteos img
+{
+    margin: 10px;
+}
+
+#lacteos p
+{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#lacteos p:hover
+{
+    background-color: black;
+    color: white;
+    border-style: dashed;    
+}
+
+/* Secciones  */
+#bebidas
+{
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    font-style: bold; 
+}
+
+#bebidas img
+{
+    margin: 10px;
+}
+
+#bebidas p
+{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#bebidas p:hover
+{
+    background-color: black;
+    color: white;
+    border-style: dashed;    
+}
+
+/* Secciones  */
+#limpieza
+{
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    font-style: bold; 
+}
+
+#limpieza img
+{
+    margin: 10px;
+}
+
+#limpieza p
+{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#limpieza p:hover
+{
+    background-color: black;
+    color: white;
+    border-style: dashed;    
+}
+
+/* Secciones  */
+#carnes
+{
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    font-style: bold; 
+}
+
+#carnes img
+{
+    margin: 10px;
+}
+
+#carnes p
+{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#carnes p:hover
+{
+    background-color: black;
+    color: white;
+    border-style: dashed;    
+}
+
+/* Secciones  */
+#verduleria
+{
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    font-style: bold; 
+}
+
+#verduleria img
+{
+    margin: 10px;
+}
+
+#verduleria p
+{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#verduleria p:hover
+{
+    background-color: black;
+    color: white;
+    border-style: dashed;    
 }
 
 .productos /* Aca le doy estilo a la caja y no al contenido */
